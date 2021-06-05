@@ -1,0 +1,135 @@
+/* reset CSS */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+/* reset CSS */
+
+body{
+    margin: 50px 85px 40px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+}
+
+.title h2{
+    color: hsl(234, 12%, 34%);
+    font-size: 29px;
+    font-weight: 400;
+}
+
+.title p{
+    text-align: center;
+    width: 50%;
+    color: hsl(229, 6%, 66%);
+    margin-top: 12px;
+    font-weight: 200;
+}
+
+#four-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#four-card .content{
+    margin: 20px;
+}
+
+#four-card .content h3{
+    font-weight: 600;
+}
+
+#four-card .content p{
+    color: hsl(229, 6%, 66%);
+    margin-top: 12px;
+    font-weight: 200;
+}
+
+#first, 
+#third, 
+#second .team-builder, 
+#second .karma{
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    box-shadow:1px 3px 10px hsl(229, 6%, 66%); 
+}
+
+#first{
+    border-top: hsl(180, 62%, 55%) 3px solid;
+}
+
+#second{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 0px 25px 40px;
+}
+
+#second .team-builder{
+    border-top: hsl(0, 78%, 62%) 3px solid;
+}
+
+#second .karma{
+    border-top: hsl(34, 97%, 64%) 3px solid;
+    margin-top: 15px;
+}
+
+#third{
+    border-top: hsl(212, 86%, 64%) 3px solid;
+}
+
+#first img, 
+#third img, 
+#second .team-builder img, 
+#second .karma img{
+    float: right;
+    margin: 20px 0 20px;
+}
+
+
+
+/* Mobile */
+@media only screen and (min-device-width : 375px) and (max-device-width : 740px) {
+    body{
+        width: auto;
+        height: 100%;
+        margin: 75px 35px;
+    }
+    
+    .title p{
+        width: 100%;   
+    }
+    
+    #four-card{
+        display: flex;
+        flex-direction: column;
+        margin: 65px 0px;
+    }
+    
+    #second{
+        margin: 20px 0px ;
+    }
+    }
+/* Mobile */
+
+
+
+
+
